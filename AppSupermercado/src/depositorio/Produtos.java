@@ -53,7 +53,7 @@ public class Produtos {
 		return dataValidade;
 	}
 	
-	// Formata a data como uma String no padrão curto.
+	// Método GET que formata a data como uma String no padrão curto.
 	public String getFormattedDataValidade() {
 		return DF.format(dataValidade);
 	}
